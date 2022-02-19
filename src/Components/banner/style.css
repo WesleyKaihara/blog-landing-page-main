@@ -1,0 +1,96 @@
+.banner{
+  width: 100%;
+  height: 20%;
+  background-image: linear-gradient(90deg,hsl(13, 100%, 72%),hsl(353, 100%, 62%));
+  overflow: hidden;
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 0 0 0 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bgPattern{
+  top: 0;
+  left: 0;
+  width: 145%;
+  margin: -55% -10%;
+  position: relative;
+}
+
+.header{
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  position: absolute;
+  top: 0;
+  padding: 2% 5% ;
+}
+
+.navMenu{
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.navMenuItem,.login{
+  list-style: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+.navTitle{
+  color: hsl(0, 0%, 100%);
+  font-size: 2em;
+}
+
+.signUp{
+  background-color: hsl(0, 0%, 100%);
+  border: none;
+  font-size: 1em;
+  color: hsl(356, 100%, 66%);
+  padding: .5em 1.2em;
+  border-radius: 5vh;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navMenuLogin{
+  display: flex;
+  align-items: center;
+  gap: 2vh;
+}
+
+.bannerContent{
+  position: absolute;
+}
+
+.bannerContentTitle{
+  color: hsl(0, 0%, 100%);
+  font-size: 3em;
+}
+
+.bannerContentDesc{
+  color: hsl(240, 2%, 79%);
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.bannerContentButtons{
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  gap: 1.3vw;
+}
+
+.LearnMore{
+  background-color: hsla(0, 0%, 100%, 0);
+  border: 2px solid hsl(0, 0%, 100%);
+  font-size: 1em;
+  color: hsl(0, 0%, 100%);
+  padding: .5em 1.2em;
+  border-radius: 5vh;
+  font-weight: bold;
+  cursor: pointer;
+}
