@@ -54,6 +54,11 @@
   border-radius: 5vh;
   font-weight: bold;
   cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+.signUp:hover{
+  background-color: hsl(13, 100%, 72%);
+  color: hsl(0, 0%, 100%);
 }
 
 .navMenuLogin{
@@ -93,4 +98,9 @@
   border-radius: 5vh;
   font-weight: bold;
   cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+.LearnMore:hover{
+  background-color:hsl(0, 0%, 100%) ;
+  color:hsl(356, 100%, 66%) ;
 }
