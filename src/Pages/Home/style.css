@@ -42,7 +42,8 @@
   background-image: linear-gradient(90deg,hsl(237, 17%, 21%),hsl(237, 23%, 32%));
   overflow:hidden ;
   margin-bottom: 30vh;
-  border-radius: 0 0 0 10vh;
+  border-radius: 0 0 0 15vh;
+  display: flex;
 }
 
 .circles{
@@ -93,4 +94,55 @@
 
 .valuesText{
   padding-right: 15%;
+}
+
+@media(max-width:1110px){
+  .values{
+    flex-direction: column;
+  }
+  .valuesText{
+   padding: 5%;
+   text-align: center;
+  }
+  .infrastructureText{
+  position: absolute;
+  right: 0;
+  width: 50%;
+  margin-top: 10%;
+  padding-right: 8em;
+}
+  .infrastructure{
+  flex-direction: column-reverse;
+  height: 50em;
+  justify-content: center;
+  width: 100%;
+  border-radius: 0 15vh 0 15vh;
+}
+  .phones{
+  z-index: 2;
+  position: absolute;
+  margin: -80% auto;
+  width: 100%;
+}
+  .infrastructureText{
+  position: relative;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  padding: 0;
+  margin-top: 35%;
+} 
+.about{
+  flex-direction: column-reverse;
+}
+  .aboutText{
+  padding: 5%;
+  text-align: center;
+  margin:auto ;
+}
+.editorImg{
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
 }

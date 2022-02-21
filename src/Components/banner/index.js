@@ -19,11 +19,14 @@ export default function Banner() {
           </ul>
 
         </nav>
+
         <div className='navMenuLogin'>
           <a href="#" className='login'>Login</a>
           <button className='signUp'>Sign Up</button>
         </div>
+
       </header>
+
       <div className="bannerContent">
         <h1 className='bannerContentTitle'>A modern publishing platform</h1>
         <p className='bannerContentDesc'>Grow your audience and build your online brand</p>
