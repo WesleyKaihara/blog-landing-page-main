@@ -56,7 +56,7 @@ export default function Banner() {
         </nav>
 
         <div className='navMenuLogin'>
-          <a href="#" className='login'>Login</a>
+          <a href="/" className='login'>Login</a>
           <button className='signUp'>Sign Up</button>
         </div>
 
@@ -74,7 +74,7 @@ export default function Banner() {
         </ul>
         <div className='mobileLine' />
 
-        <a href="#" className='mobileLogin'>Login</a><br />
+        <a href="/" className='mobileLogin'>Login</a><br />
         <button className='mobileSignUp'>Sign Up</button>
       </div>
       <div className="bannerContent">
