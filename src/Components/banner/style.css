@@ -10,6 +10,10 @@
   justify-content: center;
 }
 
+.menu{
+  display: flex;
+  gap: 2em;
+}
 .bgPattern{
   top: 0;
   left: 0;
@@ -38,6 +42,12 @@
   color: hsl(0, 0%, 100%);
   font-size: 1.1em;
   text-decoration: none;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.navMenuItem:hover{
+  text-decoration: underline;
 }
 
 .navTitle{
@@ -168,6 +178,41 @@
   color: hsl(0, 0%, 100%);
   font-weight: bold;
 }
+
+.subMenu{
+  display: none;
+  position: absolute;
+  margin-top: .5em;
+  margin-left: -.5em;
+  z-index: 3;
+  background-color: hsl(0, 0%, 100%);
+  padding-left: .5em;
+  width: 10%;
+  list-style: none;
+  color: hsl(240, 10%, 16%);
+  border-radius:5px;
+}
+
+.subMenuItem{
+  margin: .8em 0;
+}
+
+.subMenuItem:hover{
+  font-weight: bold;
+}
+
+.openSubMenu{
+  display: block;
+}
+
+.arrowSubMenu{
+  display: flex;
+  align-items: center;
+}
+
+.rotate{
+  transform: rotate(180deg);
+}
 @media(max-width:1110px){
   .header{
     padding: 8% 5% ;
@@ -204,4 +249,5 @@
   .openMenu{
     display: flex;
   }
+
   }
